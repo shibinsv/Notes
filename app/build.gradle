@@ -42,9 +42,10 @@ dependencies {
     annotationProcessor "android.arch.lifecycle:compiler:$rootProject.archLifecycleVersion"
 
     // Room components
-    implementation "android.arch.persistence.room:runtime:$rootProject.roomVersion"
     annotationProcessor "android.arch.persistence.room:compiler:$rootProject.roomVersion"
     androidTestImplementation "android.arch.persistence.room:testing:$rootProject.roomVersion"
+    implementation "android.arch.persistence.room:runtime:$rootProject.roomVersion"
+
 
     //Recycler view
     implementation 'androidx.recyclerview:recyclerview:1.2.0'
