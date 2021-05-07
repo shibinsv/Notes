@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/addNoteLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/notes_logo_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_task"
+            android:textColor="@color/grey_200"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:id="@+id/titleAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/titleET"
+            android:textColor="@color/grey_200"
+            android:textColorHint="@color/grey_200"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"/>
+
+        <View
+            android:id="@+id/viewSubtitleIndicator"
+            android:layout_width="5sp"
+            android:layout_height="20dp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:background="@drawable/bg_subtitle_indicator"
+            android:layout_marginLeft="@dimen/_12sdp" />
+
+        <EditText
+            android:id="@+id/descAdd"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:gravity="start"
+            android:hint="@string/description"
+            android:textColor="@color/grey_200"
+            android:textColorHint="@color/grey_200"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"/>
+
+        <TextView
+            android:id="@+id/dateAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="20sp"
+            android:textColor="@color/colorred"
+            android:padding="5sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            app:drawableLeftCompat="@drawable/date_add" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:id="@+id/saveLayout"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/ic_save"
+                android:backgroundTint="@color/c_yellow"
+                android:text="@string/save"
+                android:textColor="@color/black"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/layout_bottom_notes"
+        layout="@layout/layout_bottom_notes"/>
+
+</LinearLayout>

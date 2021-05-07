@@ -1,0 +1,34 @@
+<resources>
+    //app name
+    <string name="app_name">Notes</string>
+
+
+    <string name="notes">Notes</string>
+    <string name="add_a_note">Add a note</string>
+    <string name="titleET">Title</string>
+    <string name="description">Description...</string>
+    <string name="date_added">Date added</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="addicon">addIcon</string>
+    <string name="clearicon">clearIcon</string>
+    <string name="permission">Please grant permission to capture photo .</string>
+    <string name="image_action">Pick image</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="designation">Designation</string>
+    <string name="ok">OK</string>
+    <string name="view">View</string>
+    <string name="successfully_created_a_task">Successfully created a task</string>
+    <string name="contact_added">Contact added !!</string>
+    <string name="task_created">Task created</string>
+    <string name="date">DD/MON/YYYY</string>
+    <string name="add">Add</string>
+    <string name="edit_image">Edit image</string>
+    <string name="add_image">Add image</string>
+    <string name="edit_task_details">Edit task</string>
+    <string name="add_task">Add task</string>
+    <string name="customize_task">Customize task</string>
+    <string name="pick_color">Pick colour</string>
+
+</resources>

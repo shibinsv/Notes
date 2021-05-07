@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/c_black"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_task_details"
+        android:textColor="@color/grey_200"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:drawableLeft="@drawable/rl_border"
+        android:id="@+id/titleUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titleET"
+        android:textColor="@color/grey_200"
+        android:textColorHint="@color/grey_200"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30sp"/>
+
+    <EditText
+        android:id="@+id/descUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:gravity="start"
+        android:textColor="@color/grey_200"
+        android:textColorHint="@color/grey_200"
+        android:hint="@string/description" />
+
+    <TextView
+        android:id="@+id/dateUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textSize="20sp"
+        android:textColor="@color/colorred"
+        android:padding="5sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        app:drawableLeftCompat="@drawable/date_add" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/update"
+        android:textColor="@color/black"
+        android:textAllCaps="false" />
+
+</LinearLayout>

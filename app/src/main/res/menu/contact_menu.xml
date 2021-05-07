@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addContact"
+        android:title="@string/addicon"
+        android:icon="@drawable/add_contact"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/clearContacts"
+        android:title="@string/clearicon"
+        android:icon="@drawable/delete_all"
+        app:showAsAction="ifRoom"/>
+
+</menu>
