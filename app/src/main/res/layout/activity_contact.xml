@@ -14,10 +14,10 @@
         android:orientation="vertical"
         tools:ignore="UselessParent">
 
-      <!--  <View
+        <View
             android:layout_width="match_parent"
             android:layout_height="10dp"
-            android:background="@color/c_pink_20percent" />-->
+            android:background="@color/c_pink_20percent" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerContacts"
